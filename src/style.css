@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(216, 102, 121, 0.826);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+small {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* CHANGED: movie-container → movie-list */
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.movie-card {
+    width: 200px;
+    background-color: white;
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.movie-card h2 {
+    margin-top: 0;
+    color: #d63384;
+}
+
+.movie-card p {
+    margin: 5px 0;
+}
+
+.movie-card {
+    width: 200px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+}
