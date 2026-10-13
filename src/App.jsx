@@ -4,7 +4,7 @@ function App() {
   
   return (
     <section>
-      <h1>MY MOVIE PLAYLIST</h1>
+      <h1>🎬 MY MOVIE PLAYLIST </h1>
       <small>Favorite Movies of All Time</small>
 
       <div className="movie-list">
@@ -64,6 +64,17 @@ function App() {
           </div>
         </div>
 
+        <div
+          className="movie-card"
+          style={{ backgroundImage: "url('src/assets/10things.webp')" }}
+       >
+          <div className="movie-info">
+            <h2>10 Things I Hate About You</h2>
+            <p>Year: 1999</p>
+            <p>Genre: Comedy/Romance</p>
+         </div>     
+       </div>
+      
       </div>
     </section>
   );
